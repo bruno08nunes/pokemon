@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem é esse pokemon?</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
+    <link rel="shortcut icon" href="assets/Pokebola-pokeball-png-0.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <img src="assets/Pokebola-pokeball-png-0.png" alt="">
+            <h1>Quem é esse pokemon?</h1>
+        </div>
+        <button class="button-modal">
+            <img src="assets/menu.png" alt="">
+        </button>
+    </header>
+    <div class="points">
+        <div>
+            <b>Pontuação Atual:</b>
+            <span class="current">0</span>
+        </div>
+        <div>
+            <b>Recorde:</b>
+            <span class="record">0</span>
+        </div>
+    </div>
+    <main>
+        <div class="game">
+            <img src="" class="pokemon">
+            <input type="text" id="pokemonName">
+            <div class="buttons">
+                <button class="button-cancel">Desistir</button>
+                <button class="button-game">Tentar</button>
+            </div>
+            <div class="hearts">
+            </div>
+        </div>
+    </main>
+    <div class="backdrop closed"></div>
+    <div class="modal closed">
+        <h2 class="modal-title">Configurações</h2>
+        <div>
+            <details class="configs">
+                <summary>Gerações</summary>
+                <label>
+                    <input type="checkbox" id="check1">
+                    1°
+                </label>
+                <label>
+                    <input type="checkbox" id="check2">
+                    2°
+                </label>
+                <label>
+                    <input type="checkbox" id="check3">
+                    3°
+                </label>
+                <label>
+                    <input type="checkbox" id="check4">
+                    4°
+                </label>
+                <label>
+                    <input type="checkbox" id="check5">
+                    5°
+                </label>
+                <label>
+                    <input type="checkbox" id="check6">
+                    6°
+                </label>
+                <label>
+                    <input type="checkbox" id="check7">
+                    7°
+                </label>
+                <label>
+                    <input type="checkbox" id="check8">
+                    8°
+                </label>
+                <label>
+                    <input type="checkbox" id="check9">
+                    9°
+                </label>
+            </details>
+        </div>
+        <label>
+            Vidas:
+            <input type="text" id="lifes-quantity" value="3">
+        </label>
+    </div>
+</body>
+</html>

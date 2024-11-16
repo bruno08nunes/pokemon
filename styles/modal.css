@@ -1,0 +1,36 @@
+.backdrop {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.363);
+    z-index: 2;
+}
+
+.modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 1.3em;
+}
+
+.configs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.configs label {
+    padding: 5px 0;
+}
+
+.modal-title {
+    margin-bottom: 15px;
+}
+
+.closed {
+    display: none;
+}
